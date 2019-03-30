@@ -22,6 +22,8 @@
 		76D57EBC224E92A000EFCD8B /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D57EBB224E92A000EFCD8B /* Page.swift */; };
 		76D57EBE224F257800EFCD8B /* WhishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D57EBD224F257800EFCD8B /* WhishListViewController.swift */; };
 		76D57EC0224F27FD00EFCD8B /* WhishListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D57EBF224F27FD00EFCD8B /* WhishListTableViewCell.swift */; };
+		76EF8EFC225026A10071D548 /* NearbyStoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EF8EFB225026A10071D548 /* NearbyStoresViewController.swift */; };
+		76EF8EFE22502ECB0071D548 /* customPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EF8EFD22502ECB0071D548 /* customPin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		76D57EBB224E92A000EFCD8B /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		76D57EBD224F257800EFCD8B /* WhishListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhishListViewController.swift; sourceTree = "<group>"; };
 		76D57EBF224F27FD00EFCD8B /* WhishListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhishListTableViewCell.swift; sourceTree = "<group>"; };
+		76EF8EFB225026A10071D548 /* NearbyStoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyStoresViewController.swift; sourceTree = "<group>"; };
+		76EF8EFD22502ECB0071D548 /* customPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customPin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,7 @@
 				76D57EB1224E865C00EFCD8B /* ProductTableViewCell.swift */,
 				76D57EB9224E926500EFCD8B /* PageCell.swift */,
 				76D57EBF224F27FD00EFCD8B /* WhishListTableViewCell.swift */,
+				76EF8EFD22502ECB0071D548 /* customPin.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				76D57EB5224E8ED700EFCD8B /* ListProductsViewController.swift */,
 				76D57EB7224E8F0400EFCD8B /* DetailProductViewController.swift */,
 				76D57EBD224F257800EFCD8B /* WhishListViewController.swift */,
+				76EF8EFB225026A10071D548 /* NearbyStoresViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -307,10 +313,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76EF8EFE22502ECB0071D548 /* customPin.swift in Sources */,
 				76D57EB6224E8ED800EFCD8B /* ListProductsViewController.swift in Sources */,
 				76D57EB2224E865C00EFCD8B /* ProductTableViewCell.swift in Sources */,
 				76D57EBC224E92A000EFCD8B /* Page.swift in Sources */,
 				76D57EB4224E87D700EFCD8B /* Product.swift in Sources */,
+				76EF8EFC225026A10071D548 /* NearbyStoresViewController.swift in Sources */,
 				76D57EB8224E8F0400EFCD8B /* DetailProductViewController.swift in Sources */,
 				76D57EC0224F27FD00EFCD8B /* WhishListTableViewCell.swift in Sources */,
 				76D57EBE224F257800EFCD8B /* WhishListViewController.swift in Sources */,
